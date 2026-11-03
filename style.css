@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.timebox{
+    display:flex;
+    gap:90px;
+    text-align:center;
+}
+
+.time{
+    text-align:center;
+}
+
+.time h2{
+    font-size: 5rem;
+    font-weight: 200;
+}
+
+.black-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 60px; /* size of bar*/
+  background-color: #000000;
+  z-index: 1000;
+}
+
+.top-box {
+  top: 0;
+}
+
+.bottom-box {
+  bottom: 0;
+}
